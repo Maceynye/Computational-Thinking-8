@@ -42,12 +42,13 @@ for i in range(3):
 # # Section 4 - Winner
 # # TODO - complete the elif for player 2 winning
 # # TODO - write another elif for player 3 and player 4
+# when player wins it will print for example "player 1 wins" this just happens if they win 
 s5 = create_sprite("alien",-200,-200)
 if x1 >= x2 and x1 >= x3 and x1 >= x4:
     print("Player 1 wins!")
 elif x2 >= x1 and x2 >=x3 and x2 >=x4:
     s5.write("player 2 wins!")
-]
+
 elif x3 >= x2 and x3 >= x1 and x3 >= x4:
         print ("player 3 wins!")
 

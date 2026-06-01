@@ -43,6 +43,7 @@ for i in range(1000000000):
 
 
     # OPTIONAL - use the message sprite to say a message
+    # goul is to get as meant starfish as posible 
   m1.clear()
   m1.write("Hello")
 
